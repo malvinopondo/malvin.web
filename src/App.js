@@ -8,6 +8,8 @@ function App() {
     <div>
       <Navbar />
       <Banner />
+      <Contact />
+      <Footer />
     </div>
       
 
