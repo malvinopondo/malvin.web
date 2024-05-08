@@ -6,6 +6,7 @@ import Footer from './components/Footer';
 import Contact from './components/Contact';
 import { MailchimpForm } from './components/MailchimpForm';
 import Newsletter from './components/Newsletter';
+import { ProjectCard } from './components/ProjectCard';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Footer />
       <MailchimpForm />
       <Newsletter />
+      <ProjectCard />
     </div>
       
 
