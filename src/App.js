@@ -5,6 +5,7 @@ import Banner from './components/Banner';
 import Footer from './components/Footer';
 import Contact from './components/Contact';
 import { MailchimpForm } from './components/MailchimpForm';
+import Newsletter from './components/Newsletter';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Contact />
       <Footer />
       <MailchimpForm />
+      <Newsletter />
     </div>
       
 
