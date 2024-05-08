@@ -18,6 +18,7 @@ function App() {
       <MailchimpForm />
       <Newsletter />
       <ProjectCard />
+      
     </div>
       
 
