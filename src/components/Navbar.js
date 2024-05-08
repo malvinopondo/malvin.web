@@ -2,12 +2,14 @@ import React from 'react'
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 
+
 function Navbar() {
   return (
     <div>
     <Navbar expand="lg" className="bg-body-tertiary">
       <Container>
         <Navbar.Brand href="#home">malvin</Navbar.Brand>
+        {/* <img src={#} alt='logo'/> */}
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <span className='navbar-toggler-icon'>
         </span>
@@ -34,7 +36,8 @@ function Navbar() {
                 <a href="#"><img src="" alt=""></img></a>
                 <a href="#"><img src="" alt=""></img></a>
             </div>
-            <button className=''></button>
+            <button className='btn' onClick={() => console.log('connect')}><span>
+            Let's Connect  </span></button>
           </span>
         </Navbar.Collapse>
       </Container>
