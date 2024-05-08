@@ -64,4 +64,4 @@ export const NavBar = () => {
     </Router>
   )
 }
-
+export default Projects;
