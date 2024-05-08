@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import Banner from './components/Banner';
 import Footer from './components/Footer';
 import Contact from './components/Contact';
+import { MailchimpForm } from './components/MailchimpForm';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Banner />
       <Contact />
       <Footer />
+      <MailchimpForm />
     </div>
       
 
