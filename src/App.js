@@ -8,6 +8,7 @@ import { MailchimpForm } from './components/MailchimpForm';
 import Newsletter from './components/Newsletter';
 import { ProjectCard } from './components/ProjectCard';
 import Projects from "./components/Projects";
+import { Skills } from './components/Skill';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Newsletter />
       <ProjectCard />
       <Projects />
+      <Skills />
 
     </div>
       
